@@ -19,6 +19,10 @@ class Rectangle{
         int perimeter(){
             return 2*(length+breadth);
         }
+
+        ~Rectangle(){
+            cout<<"Rectangle is destroyed"<<endl;
+        }
 };
 
 

@@ -16,9 +16,10 @@ int main(){
     int *A;
 
     A = create_arr_in_heap(5);
-
-    for(int i=0;i<n;i++){
-        std::cout<<A[i]<<" ";
+    int b[] = {1,2,3};
+    
+    for(int i:b){
+        std::cout<<i<<" ";
     }
     return 0;
 }
