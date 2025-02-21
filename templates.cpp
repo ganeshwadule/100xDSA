@@ -56,4 +56,5 @@ int main()
     calculator<int> c(10.1233, 12);
     cout << c.add()<<endl;
     cout<<c.mul();
+    cout<<c.div();;
 }
